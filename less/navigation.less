@@ -1,1 +1,24 @@
 // Navigation code here
+
+.nav-container{
+    background-color: @nav-bg;
+    border: 1px solid @nav-border;
+    .custom-flex(center,wrap);
+    flex-direction: column;
+
+    @media @phone{
+        // border:1px solid red;
+    }
+        h1{
+                font-size: 4rem;
+        }//header
+        nav{
+            margin: 1rem 0;
+            a{
+                font-size: 1.4rem;
+                text-decoration: none;
+                color:black;
+                margin: 2.5rem;
+        }//anchor
+    }//navigation
+}//navigation container
