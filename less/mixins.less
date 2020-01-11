@@ -1,1 +1,27 @@
 // Mixins Here
+
+.custom-button(@size,@btn-width){
+    border:1px solid @btn-bg-color;
+    font-size: @size;
+    background-color: @btn-bg-color;
+    color: @wild-sand;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem 0.5rem 1.3rem;
+    width: @btn-width;
+}
+// .custom-button(){
+//     border: 1px solid @eastern-blue;
+//     color: @main-bg;
+//     background-color: @eastern-blue;
+//     border-radius: 2rem;
+//     font-size: 1.4rem;
+//     padding:.5rem;
+//     width:100%;
+// }
+
+.custom-flex(@a-content,@f-wrap:wrap){
+    display: flex;
+    align-items: @a-content;
+    flex-wrap: @f-wrap;
+}
